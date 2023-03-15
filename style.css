@@ -1,0 +1,70 @@
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+font-size: 18px;
+}
+
+body
+{
+    background-size: cover;
+}
+
+h1
+{
+    font-size: 35px;
+    margin-top: 0px;
+    height: 55px;
+    padding-top: 5px;
+}
+
+h3
+{
+    font-size: 25px !important;
+}
+
+canvas
+{
+    border: dashed black 5px ;
+    animation-name: wow_color;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wow_color
+{
+    0%
+    {
+        box-shadow: 1px 1px 3px rgb(255, 0, 0);
+    }
+    10%
+    {
+        box-shadow: 1px 1px 30px rgb(255, 89, 0);
+    }
+    20%
+    {
+        box-shadow: 1px 1px 30px rgb(242, 255, 0);
+    }
+    30%
+    {
+        box-shadow: 1px 1px 30px rgb(0, 255, 34);
+    }
+    40%
+    {
+        box-shadow: 1px 1px 30px rgb(0, 140, 255);
+    }
+    50%
+    {
+        box-shadow: 1px 1px 30px rgb(255, 0, 234);
+    }
+    100%
+    {
+        box-shadow: 1px 1px 30px rgb(100, 0, 153);
+    }
+}
